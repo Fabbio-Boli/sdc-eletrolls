@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+
+header {
+    position: fixed;
+    height: 55px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    padding: 5px 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+header .logo {
+    color: #111;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 5px 10px;
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 25px;
+}
+
+header ul li a:hover {
+    transform: scale(0.95);
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row.content {
+    height: 450px
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+select.input-sm {
+    height: 40px;
+}
+
+.col-md-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 35px;
+}
+
+/* .modal-content {
+    min-width: 1000px;
+    min-height: 400px;
+    margin: 2rem auto;
+
+} */
